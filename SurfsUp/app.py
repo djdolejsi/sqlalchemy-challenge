@@ -33,8 +33,8 @@ def welcome():
         f"Precipitation: /api/v1.0/precipitation<br>"
         f"List of Stations: /api/v1.0/stations<br>"
         f"Temperature for previous year: /api/v1.0/tobs<br>"
-        f"Temperature stat from start date: /api/v1.0/<start><br>"
-        f"Temperature stat from start to end dates: /api/v1.0/<start>/<end><br>"
+        f"Temperature stat from start date: /api/v1.0/yyyy-mm-dd<br>"
+        f"Temperature stat from start to end dates: /api/v1.0/yyyy-mm-dd/yyyy-mm-dd<br>"
     )
 
 # Design precipitation route in app
